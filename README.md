@@ -18,3 +18,10 @@ more specific contract.
 - Security reporting: [`SECURITY.md`](SECURITY.md)
 - Community conduct: [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md)
 - Community: [SAIPEN Discord](https://discord.gg/SEYaYkuVgN)
+
+## Canonical organization docs
+
+- [Project map](docs/PROJECTS.md) — taxonomy and current ownership boundaries
+- [Branding and links](docs/BRANDING.md) — canonical names, URLs, and README bridge rules
+- [Repository migration policy](docs/REPOSITORY_MIGRATION.md) — when a project should or should not move into SAIPEN HQ
+- [Organization settings](docs/ORG_SETTINGS.md) — desired public settings and connector state
