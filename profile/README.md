@@ -23,6 +23,8 @@ important idea: useful work should survive the end of a chat session.
 
 </div>
 
+[**Project map**](https://github.com/saipenhq/.github/blob/main/docs/PROJECTS.md) · [**Brand & links**](https://github.com/saipenhq/.github/blob/main/docs/BRANDING.md) · [**Contributing**](https://github.com/saipenhq/.github/blob/main/CONTRIBUTING.md)
+
 ## What SAIPEN is
 
 **SAIPEN** is a vendor-neutral continuation protocol for AI coding agents.
