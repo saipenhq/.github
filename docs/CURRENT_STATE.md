@@ -8,7 +8,7 @@ SAIPEN_HQ_PUBLIC_STATE:END -->
 
 ## Status
 
-**Phase:** CURRENT / STABLE
+**Phase:** DONE / STABLE
 
 The public structure is established and intentionally split:
 
@@ -43,33 +43,21 @@ The public structure is established and intentionally split:
 - [Repository migration policy](REPOSITORY_MIGRATION.md)
 - [Public metadata maintenance](MAINTENANCE.md)
 
-## Remaining operator-only gate
+## Repository metadata
 
-GitHub repository **Description** and **Topics** are repository settings, not file
-content. The currently available connector can read them but does not expose the
-repository-settings write endpoint.
+Repository **Description** and **Topics** were applied from the canonical manifest and verified by a final idempotent preview:
 
-Desired values are already prepared at:
+```text
+changed=0 unchanged=34 failed=0 mode=PREVIEW
+```
+
+Desired values remain recorded at:
 
 - https://github.com/vacterro/vacterro/blob/main/docs/repository-metadata.json
 
-Safe preview/apply helper:
+The sync helper remains available for future drift checks:
 
 - https://github.com/vacterro/vacterro/blob/main/tools/apply-repository-metadata.ps1
-
-Run from a local clone of `vacterro/vacterro` with authenticated GitHub CLI:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File .\tools\apply-repository-metadata.ps1
-powershell -ExecutionPolicy Bypass -File .\tools\apply-repository-metadata.ps1 -Apply
-```
-
-The first command is preview-only. The second applies the prepared descriptions
-and topics.
-
-This is the only known broad public-metadata item left unapplied at this
-checkpoint. Do not redesign the ecosystem because this one GitHub settings
-surface still needs an operator-capable API/CLI.
 
 ## Not currently authorized
 
