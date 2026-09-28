@@ -1,0 +1,49 @@
+name: Bug report
+description: Report a reproducible problem in a SAIPEN HQ project
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please file this in the repository that actually owns the affected code.
+        Remove credentials, private data, and secrets from logs before posting.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the observed behavior and why it is a problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Minimal reproduction
+      description: Exact steps another person can follow.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      placeholder: e.g. v0.8.68 or commit SHA
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: e.g. Windows 10 22H2, Python 3.11.9
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, screenshots, or other evidence
+      description: Paste only sanitized material. Do not include credentials or private data.
