@@ -25,3 +25,4 @@ more specific contract.
 - [Branding and links](docs/BRANDING.md) — canonical names, URLs, and README bridge rules
 - [Repository migration policy](docs/REPOSITORY_MIGRATION.md) — when a project should or should not move into SAIPEN HQ
 - [Organization settings](docs/ORG_SETTINGS.md) — desired public settings and connector state
+- [Maintenance contract](docs/MAINTENANCE.md) — how public metadata stays coherent without process bloat
