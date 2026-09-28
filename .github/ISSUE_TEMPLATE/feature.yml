@@ -1,0 +1,33 @@
+name: Feature request
+description: Propose a concrete improvement to a SAIPEN HQ project
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Durable feature requests belong in the repository that would own the implementation.
+        For rough brainstorming or cross-project discussion, use the SAIPEN Community Discord first.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: Describe the concrete limitation or recurring workflow problem.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the user-visible result, not only a preferred implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing workaround or alternatives
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence or examples
+      description: Add screenshots, traces, measurements, or comparable tools when useful.
