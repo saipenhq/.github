@@ -26,3 +26,4 @@ more specific contract.
 - [Repository migration policy](docs/REPOSITORY_MIGRATION.md) — when a project should or should not move into SAIPEN HQ
 - [Organization settings](docs/ORG_SETTINGS.md) — desired public settings and connector state
 - [Maintenance contract](docs/MAINTENANCE.md) — how public metadata stays coherent without process bloat
+- [Current state](docs/CURRENT_STATE.md) — completed setup and the one remaining operator-only metadata gate
