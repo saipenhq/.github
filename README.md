@@ -27,3 +27,8 @@ more specific contract.
 - [Organization settings](docs/ORG_SETTINGS.md) — desired public settings and connector state
 - [Maintenance contract](docs/MAINTENANCE.md) — how public metadata stays coherent without process bloat
 - [Current state](docs/CURRENT_STATE.md) — completed setup and the one remaining operator-only metadata gate
+
+<!-- VACTERRO_SUPPORT:BEGIN -->
+---
+<sub>If these projects are useful to you, optional support: [Buy Me a Coffee](https://buymeacoffee.com/vacuum34) · [Boosty](https://boosty.to/vacuum34/donate) · [PayPal](https://paypal.me/AlexNelin) · [other ways](https://github.com/vacterro/vacterro/blob/main/SUPPORT.md)</sub>
+<!-- VACTERRO_SUPPORT:END -->
