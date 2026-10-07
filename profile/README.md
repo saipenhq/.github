@@ -20,6 +20,7 @@ important idea: useful work should survive the end of a chat session.
 [![Community](https://img.shields.io/badge/Discord-SAIPEN%20Community-5865F2?logo=discord&logoColor=white)](https://discord.gg/SEYaYkuVgN)
 [![SAIPEN Core](https://img.shields.io/badge/SAIPEN-Core-D4B86A)](https://github.com/vacterro/saipen)
 [![Author](https://img.shields.io/badge/GitHub-vacterro-181717?logo=github)](https://github.com/vacterro)
+[![Website](https://img.shields.io/badge/SAIPEN-Website-6B5A2B)](https://github.com/vacterro/saiwebsite)
 
 </div>
 
@@ -45,6 +46,7 @@ agent work easier to operate, inspect, resume, and verify.
 | Project | Purpose |
 |---|---|
 | [**SAIPEN Core**](https://github.com/vacterro/saipen) | Plain-file continuation protocol, recovery model, validation, and cold-agent handoff. |
+| [**SAIPEN Website**](https://github.com/vacterro/saiwebsite) | Official static documentation and public web surface for the protocol, rendered in the Wintage design system. |
 | [**ZAICODE**](https://github.com/vacterro/zaicode) | Windows operator workbench for running many AI coding agents and projects from one control surface. |
 | [**FastPrompter**](https://github.com/vacterro/FastPrompter) | Local-first keyboard scratchpad, prompt/snippet workspace, and file-container tool for Windows. |
 | [**LIMISAW**](https://github.com/vacterro/limisaw) | Read-only quota monitor for Codex, Claude Code, Antigravity, and Zcode. |
