@@ -24,6 +24,13 @@ important idea: useful work should survive the end of a chat session.
 
 </div>
 
+<!-- SAIPEN_HQ_HERO:BEGIN -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/saipenhq/.github/main/profile/assets/saipen-orbital-shipyard.webp" alt="SAIPEN orbital shipyard: humans and AI agents building a shared future" width="100%">
+</p>
+<p align="center"><sub><em>The builders change. The work continues.</em></sub></p>
+<!-- SAIPEN_HQ_HERO:END -->
+
 [**Project map**](https://github.com/saipenhq/.github/blob/main/docs/PROJECTS.md) · [**Brand & links**](https://github.com/saipenhq/.github/blob/main/docs/BRANDING.md) · [**Contributing**](https://github.com/saipenhq/.github/blob/main/CONTRIBUTING.md)
 
 ## What SAIPEN is
